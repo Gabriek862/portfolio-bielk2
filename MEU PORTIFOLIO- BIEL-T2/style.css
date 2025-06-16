@@ -1,0 +1,187 @@
+/* Estilos b */
+body {
+    font-family: 'Audiowide', sans-serif; /* Usando a fonte do seu HTML */
+    background-color: #000000;
+    color: #00cbfd;
+}
+
+/* Estilo dos cartao */
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 170, 255, 0.3);
+}
+
+.skill-card:hover {
+    border-color: #00aaff;
+}
+.FORM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+    background: #2a9b57;
+    background: linear-gradient(179deg, rgba(42, 155, 87, 1) 0%, rgba(83, 104, 237, 1) 100%);
+}
+.but{
+    color: #fcf6f6;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+}
+.da{
+    background: #000000;
+    border-radius: 10px;
+}
+.FORM input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+/*  centralizacao dos section */
+.navs{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    align-items: normal;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 0px; 
+    background: #020024;
+    background: linear-gradient(121deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    
+}
+
+/* Cards */
+.skill-card {
+    background-color: rgba(30, 41, 59, 0.5); /* Fundo azul */
+    border: 1px solid #1e293b; /* Bordad */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+    border-color: #00aaff;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.3);
+}
+
+/*  Tabela  */
+.skills-table {
+    border-collapse: collapse;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #ffffff;
+    padding: 1rem; /* Espaçamento */
+    transition: background-color 0.3s ease;
+}
+
+.skills-table th {
+    background-color: rgba(30, 41, 59, 0.8);
+    color: #3ff5fc;
+    text-transform: uppercase;
+}
+
+.skills-table tbody tr:hover {
+    background-color: rgba(30, 41, 59, 0.5); /* linha ao passar o mouse */
+}
+
+/*  o Formulário de Contato */
+.contact-form {
+    background-color: rgba(30, 41, 59, 0.5);
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 2rem; /* Espaçamento  */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #0cffd7;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.3);
+}
+
+/* Botão */
+.submit-button {
+    color: #ffffff;
+    background-color: #00aaff;
+    border-radius: 5px;
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #03adf7;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.5);
+}
+
+
+.footer-style {
+    background: #000000;
+    border-top: 1px solid #1e293b;
+}
+#GB{
+    font-size: 10PX;
+}
+#PT{
+    
+    font-size: 20PX;
+}
+.navs :hover{
+    color: #000000;
+}
+.navs a::after {
+            content: ''; /* Pseudo-elementos precisam da propriedade content */
+            position: absolute;
+            width: 100%;
+            height: 3px; /* Altura do sublinhado */
+            background-color: #0077cc; /* Cor do sublinhado */
+            
+            /* Posição inicial */
+            bottom: 0;
+            left: 0;
+            
+            /* Animação */
+            transform: scaleX(0); /* Começa com largura 0 */
+            transform-origin: center; /* A animação se expande a partir do centro */
+            transition: transform 0.3s ease-in-out; /* Define a transição suave */
+        }
+
+        /* Quando o mouse passa sobre o link (hover) */
+        .navs a:hover::after {
+            transform: scaleX(1); /* Expande a largura para 100% */
+        }
+
+
