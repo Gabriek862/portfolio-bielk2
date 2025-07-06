@@ -46,20 +46,8 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     color: #e0e0e0;
 }
-/*  centralizacao dos section */
-.navs{
-    
-    display: flex;
-    justify-content: center;
-    gap: 40px; 
-    align-items: normal;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0px 0px; 
-    background: #020024;
-    background: linear-gradient(121deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-    
-}
+
+
 
 /* Cards */
 .skill-card {
