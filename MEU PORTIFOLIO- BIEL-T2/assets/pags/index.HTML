@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Neves | Portifolio</title>
+    <meta name="author" content="gabrieln">
+    <meta name="descripton" content="portifolio de gabriel">
+    <link rel="stylesheet" href="style.css"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    
+    <!-- Ícones Remixicon do seu HTML original -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- Ícones Font Awesome (para os cards de conteúdo) -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Adicionando o Tailwind CSS para os estilos do conteúdo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+</head>
+<body class="antialiased">
+
+<!-- Seu Header com classes de estilo do Tailwind -->
+<header class="container mx-auto px-6 py-4 flex items-center justify-between bg-black">
+    <h5 class="text-xl md:text-2xl font-bold uppercase">GABRIEL NEVES <i class="ri-flashlight-fill text-cyan-400"></i></h5>
+    <h2 class="hidden md:block text-2xl lg:text-3xl font-bold uppercase">PORTIFOLIO<i class="ri-flashlight-fill text-cyan-400"></i></h2>
+    <img src="./kaleb.jpg" alt="Logo" class="w-10 h-10 rounded-full border-2 border-cyan-500">
+</header>
+
+<!-- Sua Nav, adaptada com links e classes do Tailwind -->
+<nav class="bg-black/50">
+    <div class="container mx-auto px-6 py-3">
+        <ul class="flex justify-center md:justify-end space-x-6 md:space-x-8 text-sm md:text-base uppercase tracking-wider">
+            <li><a href="#sobre" class="hover:text-cyan-400">SOBRE MIM <i class="ri-cup-line"></i></a></li>
+            <li><a href="#habilidades" class="hover:text-cyan-400">PRINCIPAIS HABILIDADES <i class="ri-thumb-up-line"></i></a></li>
+            <li><a href="#cursos" class="hover:text-cyan-400">CURSOS COMPLETOS <i class="ri-folder-shield-2-line"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Seu Div de Boas-vindas com classes do Tailwind -->
+<div class="divb text-center my-16 md:my-24 px-6">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4 uppercase text-white">BEM-VINDO !</h2>
+    <h3 class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">AQUI VOCE ENCONTRA TUDO SOBRE MIM E MINHA VIDA PROFISSIONAL !</h3>
+</div>
+
+<!-- Conteúdo Principal do site criado, inserido aqui -->
+<main class="container mx-auto px-6">
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="mb-20 scroll-mt-20">
+        <h3 class="text-3xl font-bold mb-8 text-center">Sobre Mim</h3>
+        <div class="max-w-4xl mx-auto text-center leading-relaxed text-lg">
+            <p class="mb-4">
+                Olá! Meu nome é Gabriel Neves dos Santos, tenho 16 anos e trabalho com TI desde 2023. Trabalho fazendo sites, apps e jogos.
+            </p>
+            <p>
+                Tenho muita vontade de criar jogos e apps de qualidade para ajudar no dia a dia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Principais Habilidades -->
+    <section id="habilidades" class="mb-20 scroll-mt-20">
+        <h3 class="text-3xl font-bold mb-12 text-center">Principais Habilidades</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card de Habilidade1 -->
+            <div class="skill-card text-center p-6 rounded-lg">
+                <div class="text-4xl text-cyan-400 mb-4"><i class="fas fa-mobile-alt"></i></div>
+                <h4 class="text-xl font-semibold mb-2">Manutenção de Hardware</h4>
+                <p class="text-gray-400">Experiência em manutenção de celulares e computadores (MCC).</p>
+            </div>
+            <!-- Card de Habilidade2 -->
+            <div class="skill-card text-center p-6 rounded-lg">
+                <div class="text-4xl text-cyan-400 mb-4"><i class="fas fa-users"></i></div>
+                <h4 class="text-xl font-semibold mb-2">Trabalho em Equipe</h4>
+                <p class="text-gray-400">Consigo trabalhar muito bem em equipe, colaborando para o sucesso do projeto.</p>
+            </div>
+            <!-- Card de Habilidade3 -->
+            <div class="skill-card text-center p-6 rounded-lg">
+                <div class="text-4xl text-cyan-400 mb-4"><i class="fas fa-check-double"></i></div>
+                <h4 class="text-xl font-semibold mb-2">Pontualidade</h4>
+                <p class="text-gray-400">Faço entrega pontual dos trabalhos dados, com responsabilidade e compromisso.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Completos -->
+    <section id="cursos" class="scroll-mt-20">
+         <h3 class="text-3xl font-bold mb-12 text-center">Cursos Completos</h3>
+        <div class="max-w-3xl mx-auto">
+            <div class="space-y-6">
+                <!-- Card de Curso1 -->
+                <div class="skill-card p-6 rounded-lg flex items-center space-x-6">
+                    <div class="text-3xl text-cyan-400"><i class="fas fa-code"></i></div>
+                    <div>
+                        <h4 class="text-xl font-semibold">Desenvolvimento Web Básico</h4>
+                        <p class="text-gray-400">HTML5, CSS3 e JavaScript Essencial - Concluído em 2023</p>
+                    </div>
+                </div>
+                <!-- Card de Curso2 -->
+                <div class="skill-card p-6 rounded-lg flex items-center space-x-6">
+                    <div class="text-3xl text-cyan-400"><i class="fas fa-tools"></i></div>
+                    <div>
+                        <h4 class="text-xl font-semibold">Manutenção de Computadores</h4>
+                        <p class="text-gray-400">Montagem, diagnóstico e reparo de hardware - Concluído em 2023</p>
+                    </div>
+                </div>
+                 <!-- Card de Curso3 -->
+                <div class="skill-card p-6 rounded-lg flex items-center space-x-6">
+                    <div class="text-3xl text-cyan-400"><i class="fas fa-gamepad"></i></div>
+                    <div>
+                        <h4 class="text-xl font-semibold">Lógica de Programação para Jogos</h4>
+                        <p class="text-gray-400">Fundamentos da lógica para criação de games - Concluído em 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<BR></BR>
+<FORm action="" class="FORM">
+        <DIV>
+            <h4>INFORMAÇOES DE CONTATO</H1>
+                <BR></BR>
+            <H4>PREENCHA O FORMULARIO ABAIXO PARA ENVIAR UMA MESSAGEM PARA MIM!
+            </H4>
+            <BR></BR>
+           <LAbel>NOME</LAbel><BR></BR>
+        
+          <INput type="TEXT"></INput>
+<BR></BR>
+           <LAbel>GMAIL</LAbel><BR></BR>
+           <INput type="TEXT"></INput>
+           <BR></BR>         
+          
+          
+
+          <BUtton type="submit" class="but"> ENVIAR</BUtton>
+          
+
+          
+          </LABEL>
+          
+<br></br>
+          <p class="text-gray-400">*Ao enviar, você concorda com o armazenamento e processamento dos dados fornecidos.</p>
+        </DIV>
+    </FORM>
+    <br>
+<!-- fim do site aq-->
+<footer class="da">
+    <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+        <div class="mb-4">
+            <a href="https://github.com/Gabriek862" target="_blank" class="text-2xl mx-3 hover:text-cyan-400"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-nevesz-7201ab357/" target="_blank" class="text-2xl mx-3 hover:text-cyan-400"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="https://www.instagram.com/gabrilles_neves/#" target="_blank" class="text-2xl mx-3 hover:text-cyan-400"><i class="ri-instagram-line"></i></a>
+        </div>
+        <p>&copy; 2024 Gabriel Neves. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>
